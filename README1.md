@@ -149,6 +149,11 @@ while True:
 | uer/gpt2-chinese-cluecorpussmall | 口語自然、近網民語言 | 偏繁體，但輸出有時候會出現簡體 | ★★★ | 美食評論風格明顯，實用性佳 |
 
 ## code
-
+也是我使用過的code：
+[code1](https://github.com/marcoleung052/113.3_holiday/blob/ddf2450fe5fb7085775279a707e0064095bce0e4/test.ipynb "游標顯示") 這個是使用了gpt2模型，並使用CLI和Gradio方法
+[code2](https://github.com/marcoleung052/113.3_holiday/blob/ddf2450fe5fb7085775279a707e0064095bce0e4/test.ipynb "游標顯示") 這個是使用了gpt2-base-chinese模型，並使用CLI和Gradio方法，並且進行max_length實驗
+[code3](https://github.com/marcoleung052/113.3_holiday/blob/ddf2450fe5fb7085775279a707e0064095bce0e4/test.ipynb "游標顯示") 這個是使用了Wenzhong-GPT2-110M模型，並使用CLI和Gradio方法
+[code4](https://github.com/marcoleung052/113.3_holiday/blob/ddf2450fe5fb7085775279a707e0064095bce0e4/test.ipynb "游標顯示") 這個是使用了gpt2-chinese-cluecorpussmal模型，並使用CLI和Flask方法
 
 ## 環境需求
+[requirements](https://github.com/marcoleung052/113.3_holiday/blob/ddf2450fe5fb7085775279a707e0064095bce0e4/test.ipynb "游標顯示") 
