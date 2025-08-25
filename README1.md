@@ -146,14 +146,18 @@ while True:
 | 原始 GPT-2 中文 | 混亂、口語不通 | 不能穩定處理繁體，易出錯 | ★ | 偏實驗用途，非實際場景推薦 |
 | ckiplab/gpt2-base-chinese | 清晰分詞、風格制式 | 強繁體支援，分詞較穩定 | ★★ | 適合繁體任務，輸出比較偏向政治 |
 | IDEA-CCNL/Wenzhong-GPT2-110M | 敘事感強，有創意但語法不穩定 | 偏簡體，繁體輸入會轉寫或失準 | ★★★ | 適合模擬口語或情境式生成|
-| uer/gpt2-chinese-cluecorpussmall | 口語自然、近網民語言 | 偏繁體，但輸出有時候會出現簡體 | ★★★ | 美食評論風格明顯，實用性佳 |
+| uer/gpt2-chinese-cluecorpussmall | 口語自然、近網民語言 | 支援繁體但偏向簡體輸出 | ★★★ | 生活敘述，語句流暢、風格輕鬆實用 |
 
 ## code
 這是我使用過的code：<br>
-[code1](https://github.com/marcoleung052/113.3_holiday/blob/ddf2450fe5fb7085775279a707e0064095bce0e4/test.ipynb "游標顯示") 這個是使用了gpt2模型，並使用CLI和Gradio方法<br>
-[code2](https://github.com/marcoleung052/113.3_holiday/blob/ddf2450fe5fb7085775279a707e0064095bce0e4/test.ipynb "游標顯示") 這個是使用了gpt2-base-chinese模型，並使用CLI和Gradio方法，並且進行max_length實驗<br>
-[code3](https://github.com/marcoleung052/113.3_holiday/blob/ddf2450fe5fb7085775279a707e0064095bce0e4/test.ipynb "游標顯示") 這個是使用了Wenzhong-GPT2-110M模型，並使用CLI和Gradio方法<br>
-[code4](https://github.com/marcoleung052/113.3_holiday/blob/ddf2450fe5fb7085775279a707e0064095bce0e4/test.ipynb "游標顯示") 這個是使用了gpt2-chinese-cluecorpussmal模型，並使用CLI和Flask方法<br>
+[code1](https://github.com/marcoleung052/113.3_holiday/blob/de9e5b301967bca43cc3d6c116ec99f48e6c387b/gpt2(cli_%2Bgradio).py "游標顯示") 這個是使用了gpt2模型，並使用CLI和Gradio方法<br>
+[code2](https://github.com/marcoleung052/113.3_holiday/blob/de9e5b301967bca43cc3d6c116ec99f48e6c387b/gpt2_base_chinese(cli(20%2C50)%2Bgradio).py "游標顯示") 這個是使用了gpt2-base-chinese模型，並使用CLI和Gradio方法，並且進行max_length實驗<br>
+[code3](https://github.com/marcoleung052/113.3_holiday/blob/de9e5b301967bca43cc3d6c116ec99f48e6c387b/wenzhong_gpt2_110m(cli%2Bgradio).py "游標顯示") 這個是使用了Wenzhong-GPT2-110M模型，並使用CLI和Gradio方法<br>
+[code4](https://github.com/marcoleung052/113.3_holiday/blob/de9e5b301967bca43cc3d6c116ec99f48e6c387b/gpt2_chinese_cluecorpussmall(cli%2Bflask).py "游標顯示") 這個是使用了gpt2-chinese-cluecorpussmal模型，並使用CLI和Flask方法<br>
 
 ## 環境需求
-[requirements](https://github.com/marcoleung052/113.3_holiday/blob/ddf2450fe5fb7085775279a707e0064095bce0e4/test.ipynb "游標顯示") 
+```txt
+transformers==4.30.0
+Flask==3.1.2
+```
+[requirements](https://github.com/marcoleung052/113.3_holiday/blob/de9e5b301967bca43cc3d6c116ec99f48e6c387b/requirements.txt "游標顯示") 
