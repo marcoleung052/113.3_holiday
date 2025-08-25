@@ -7,6 +7,12 @@
 - Python 3.9.13
 - CUDA 12.4
 
+## 環境需求
+```txt
+transformers==4.30.0
+Flask==3.1.2
+```
+
 ## 開始使用
 ```txt
 git clone https://github.com/marcoleung052/113.3_holiday
@@ -180,10 +186,3 @@ while True:
 | ckiplab/gpt2-base-chinese | 清晰分詞、風格制式 | 強繁體支援，分詞較穩定 | ★★ | 適合繁體任務，輸出比較偏向政治 |
 | IDEA-CCNL/Wenzhong-GPT2-110M | 敘事感強，有創意但語法不穩定 | 偏簡體，繁體輸入會轉寫或失準 | ★★★ | 適合模擬口語或情境式生成|
 | uer/gpt2-chinese-cluecorpussmall | 口語自然、近網民語言 | 支援繁體但偏向簡體輸出 | ★★★ | 生活敘述，語句流暢、風格輕鬆實用 |
-
-## 環境需求
-```txt
-transformers==4.30.0
-Flask==3.1.2
-```
-[requirements](https://github.com/marcoleung052/113.3_holiday/blob/de9e5b301967bca43cc3d6c116ec99f48e6c387b/requirements.txt "游標顯示") 
