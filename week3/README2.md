@@ -14,26 +14,26 @@ transformers==4.30.2
 
 ## Run code
 這是我使用過的code：<br>
-[ChatGLM3](https://github.com/marcoleung052/113.3_holiday/blob/6c24be4ab5bb1daf136aa98c94cebcb1f6301cd5/ChatGLM3.py "游標顯示") 這個是使用了ChatGLM3模型<br>
+[ChatGLM3](https://github.com/marcoleung052/113.3_holiday/blob/8e3ce79c779b0ae7d646b19492162941ab459b67/week3/ChatGLM3.py "游標顯示") 這個是使用了ChatGLM3模型<br>
 ```txt
 python ChatGLM3.py
 ```
-[ChineseRoberta](https://github.com/marcoleung052/113.3_holiday/blob/6c24be4ab5bb1daf136aa98c94cebcb1f6301cd5/ChineseRoberta.py "游標顯示") 這個是使用了ChineseRoberta模型<br>
+[ChineseRoberta](https://github.com/marcoleung052/113.3_holiday/blob/8e3ce79c779b0ae7d646b19492162941ab459b67/week3/ChineseRoberta.py "游標顯示") 這個是使用了ChineseRoberta模型<br>
 ```txt
 python ChineseRoberta.py
 ```
 
-[RoFormer-Chinese](https://github.com/marcoleung052/113.3_holiday/blob/6c24be4ab5bb1daf136aa98c94cebcb1f6301cd5/RoFormer-Chinese.py "游標顯示") 這個是使用了RoFormer-Chinese模型<br>
+[RoFormer-Chinese](https://github.com/marcoleung052/113.3_holiday/blob/8e3ce79c779b0ae7d646b19492162941ab459b67/week3/RoFormer-Chinese.py "游標顯示") 這個是使用了RoFormer-Chinese模型<br>
 ```txt
 python RoFormer-Chinese.py
 ```
 
-[Taiwan‑LLM](https://github.com/marcoleung052/113.3_holiday/blob/6c24be4ab5bb1daf136aa98c94cebcb1f6301cd5/Taiwan%E2%80%91LLM.py "游標顯示") 這個是使用了Taiwan‑LLM模型<br>
+[Taiwan‑LLM](https://github.com/marcoleung052/113.3_holiday/blob/8e3ce79c779b0ae7d646b19492162941ab459b67/week3/Taiwan%E2%80%91LLM.py "游標顯示") 這個是使用了Taiwan‑LLM模型<br>
 ```txt
 python Taiwan‑LLM.py
 ```
 
-[WoBERT](https://github.com/marcoleung052/113.3_holiday/blob/6c24be4ab5bb1daf136aa98c94cebcb1f6301cd5/WoBERT.py "游標顯示") 這個是使用了WoBERT模型<br>
+[WoBERT](https://github.com/marcoleung052/113.3_holiday/blob/8e3ce79c779b0ae7d646b19492162941ab459b67/week3/WoBERT.py "游標顯示") 這個是使用了WoBERT模型<br>
 ```txt
 python WoBERT.py
 ```
