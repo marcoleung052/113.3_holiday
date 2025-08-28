@@ -10,7 +10,6 @@
 ## 環境需求
 ```txt
 transformers==4.30.2
-Flask==3.1.2
 ```
 
 ## Run code
