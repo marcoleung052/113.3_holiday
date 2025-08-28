@@ -7,4 +7,4 @@
 >> [畢業專題之旅(week2)](https://github.com/marcoleung052/113.3_holiday/blob/3a8847d9af26ef6296ac0586de3285459029215c/%E7%95%A2%E6%A5%AD%E5%B0%88%E9%A1%8C%E4%B9%8B%E6%97%85%20(w2).pptx "游標顯示")
 > # week 3 (改良week2)
 >> [中文 GPT-2 文本補全實驗報告](https://github.com/marcoleung052/113.3_holiday/blob/ba178c8989ffb1774d130995d6383a8845de3bad/README1.md "游標顯示")  
->> [README_week3](https://github.com/marcoleung052/113.3_holiday/blob/2ef5f9ec5be8baffd31cf01093880d1d57d7a2d7/README2.md "游標顯示") 
+>> [中文文本補全實驗報告](https://github.com/marcoleung052/113.3_holiday/blob/2ef5f9ec5be8baffd31cf01093880d1d57d7a2d7/README2.md "游標顯示") 
