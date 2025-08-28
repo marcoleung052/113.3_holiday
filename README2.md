@@ -75,5 +75,5 @@ print(tokenizer.decode(output[0], skipspecialtokens=True))
 | ChatGLM3          | Chat式生成 | 指令式 Chat 模型，對 prompt 依從性高，適合需控格式與語氣的應用 |
 | ChineseRoberta    | Masked LM | 類 BERT 模型，對長上下文處理良好，短輸入語境不足時易詞語重複 |
 | RoFormerChinese   | 自回歸生成（Rotary Position Embedding） | 解碼時易陷入符號 loop，可透過調整 decoding 參數改善 |
-| Taiwan‑LLM        | Chat/生成式 | 對繁體中文有針對性優化，語料在地化程度高，對臺灣用語表現佳      |
+| Taiwan‑LLM        | Chat式生成 | 對繁體中文有針對性優化，語料在地化程度高，對臺灣用語表現佳      |
 | WoBERT            | Masked LM（BERT 架構） | Masked LM 架構，長文本詞彙預測精準，長句生成能力有限 |
