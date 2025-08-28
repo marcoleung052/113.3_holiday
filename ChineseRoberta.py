@@ -51,21 +51,6 @@ print(tok.decode(outputs[0], skip_special_tokens=True))
 '''
 他 們 不 錯 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的'''
 
-prompt = "他們不錯"
-inputs = tok(prompt, return_tensors="pt")
-outputs = model.generate(
-    **inputs,
-    max_length=50,
-    temperature=0.9,
-    top_k=50,
-    top_p=0.95,
-    repetition_penalty=1.5
-)
-print(tok.decode(outputs[0], skip_special_tokens=True))
-
-'''
-他 們 不 錯 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的 的'''
-
 prompt = "今天下班後我打算"
 inputs = tok(prompt, return_tensors="pt").to(model.device)
 outputs = model.generate(
