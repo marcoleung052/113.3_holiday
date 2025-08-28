@@ -22,21 +22,21 @@ pip install -r requirements.txt
 
 ## Run code
 這是我使用過的code：<br>
-[code1](https://github.com/marcoleung052/113.3_holiday/blob/de9e5b301967bca43cc3d6c116ec99f48e6c387b/gpt2(cli_%2Bgradio).py "游標顯示") 這個是使用了gpt2模型，並使用CLI和Gradio方法<br>
+[code1](https://github.com/marcoleung052/113.3_holiday/blob/a9c3b0a0bcbbd00436e4baea4ba57c95bbde5224/week2/gpt2(cli_%2Bgradio).py "游標顯示") 這個是使用了gpt2模型，並使用CLI和Gradio方法<br>
 ```txt
 python gpt2(cli_+gradio).py
 ```
-[code2](https://github.com/marcoleung052/113.3_holiday/blob/de9e5b301967bca43cc3d6c116ec99f48e6c387b/gpt2_base_chinese(cli(20%2C50)%2Bgradio).py "游標顯示") 這個是使用了gpt2-base-chinese模型，並使用CLI和Gradio方法，並且進行max_length實驗<br>
+[code2](https://github.com/marcoleung052/113.3_holiday/blob/a9c3b0a0bcbbd00436e4baea4ba57c95bbde5224/week2/gpt2_base_chinese(cli(20%2C50)%2Bgradio).py "游標顯示") 這個是使用了gpt2-base-chinese模型，並使用CLI和Gradio方法，並且進行max_length實驗<br>
 ```txt
 python gpt2_base_chinese(cli(20,50)+gradio).py
 ```
 
-[code3](https://github.com/marcoleung052/113.3_holiday/blob/de9e5b301967bca43cc3d6c116ec99f48e6c387b/wenzhong_gpt2_110m(cli%2Bgradio).py "游標顯示") 這個是使用了Wenzhong-GPT2-110M模型，並使用CLI和Gradio方法<br>
+[code3](https://github.com/marcoleung052/113.3_holiday/blob/a9c3b0a0bcbbd00436e4baea4ba57c95bbde5224/week2/wenzhong_gpt2_110m(cli%2Bgradio).py "游標顯示") 這個是使用了Wenzhong-GPT2-110M模型，並使用CLI和Gradio方法<br>
 ```txt
 python wenzhong_gpt2_110m(cli+gradio).py
 ```
 
-[code4](https://github.com/marcoleung052/113.3_holiday/blob/de9e5b301967bca43cc3d6c116ec99f48e6c387b/gpt2_chinese_cluecorpussmall(cli%2Bflask).py "游標顯示") 這個是使用了gpt2-chinese-cluecorpussmal模型，並使用CLI和Flask方法<br>
+[code4](https://github.com/marcoleung052/113.3_holiday/blob/a9c3b0a0bcbbd00436e4baea4ba57c95bbde5224/week2/gpt2_chinese_cluecorpussmall(cli%2Bflask).py "游標顯示") 這個是使用了gpt2-chinese-cluecorpussmal模型，並使用CLI和Flask方法<br>
 ```txt
 python gpt2_chinese_cluecorpussmall(cli+flask).py
 ```
