@@ -15,7 +15,7 @@ Flask==3.1.2
 
 ## Run code
 這是我使用過的code：<br>
-[ChatGLM3](hhttps://github.com/marcoleung052/113.3_holiday/blob/6c24be4ab5bb1daf136aa98c94cebcb1f6301cd5/ChatGLM3.py "游標顯示") 這個是使用了ChatGLM3模型<br>
+[ChatGLM3](https://github.com/marcoleung052/113.3_holiday/blob/6c24be4ab5bb1daf136aa98c94cebcb1f6301cd5/ChatGLM3.py "游標顯示") 這個是使用了ChatGLM3模型<br>
 ```txt
 python ChatGLM3.py
 ```
