@@ -1,14 +1,17 @@
-## GPT-2 Nursing Notes Completion
+## GPT2 護理記錄補全
 
 這個專案使用 Hugging Face 的 GPT-2 模型，訓練於 MIMIC-III 的 Nursing Notes，並提供一個互動式補全介面，讓使用者逐字選擇生成內容，探索模型的語言能力與醫療語境掌握。
 ---
-### 環境需求
+### 環境
+- Ubuntu 22.04.1
+- Python 3.9.13
+- CUDA 12.4
 
-- Python 3.9+
-- PyTorch
-- Transformers (`pip install transformers`)
-- Datasets (`pip install datasets`)
-- pandas
+### 環境需求
+- PyTorch 2.6.0+cu124
+- Transformers 4.56.0
+- Datasets 4.0.0
+- pandas 2.3.2
 
 ---
 
