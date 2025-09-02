@@ -7,6 +7,7 @@
 - Python 3.9.13
 - CUDA 12.4
 
+---
 ### 環境需求
 - PyTorch 2.6.0+cu124
 - Transformers 4.56.0
@@ -14,7 +15,10 @@
 - pandas 2.3.2
 
 ---
+### code
+[code](https://github.com/marcoleung052/113.3_holiday/blob/12ca47c0a4ffdc3cf420be7f89043b69b804c133/week4/gpt2_get_notes_final.py "游標顯示") 
 
+---
 ### 步驟一：資料處理
 
 從 `NOTEEVENTS.csv` 中篩選 `"CATEGORY" == "Nursing"` 的筆記，並清理文字：
