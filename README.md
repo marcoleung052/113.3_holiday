@@ -9,3 +9,5 @@
 >> [中文 GPT-2 文本補全實驗報告](https://github.com/marcoleung052/113.3_holiday/blob/4f9acc859b4b3513e01cc6e8fd43f3ec9ea95703/week3/README1.md "游標顯示")  <br>
 >> [中文文本補全實驗報告](https://github.com/marcoleung052/113.3_holiday/blob/d7c9b27545714945e80333f956f3bbe571bcb27b/week3/README2.md "游標顯示") <br>
 >> [畢業專題之旅(week3)](https://github.com/marcoleung052/113.3_holiday/blob/96a02c665ac6ff61b86ea176b1e70811c7d4348f/week3/%E7%95%A2%E6%A5%AD%E5%B0%88%E9%A1%8C%E4%B9%8B%E6%97%85%20(week3).pdf "游標顯示")
+> # week 4 (GPT2 護理記錄補全 test(ENG))
+>> [code](https://github.com/marcoleung052/113.3_holiday/blob/e00aa1ac71ef73e6acc558822919f5100305a744/week4/gpt2_get_notes_final.py "游標顯示")  <br>
