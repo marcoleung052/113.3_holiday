@@ -11,3 +11,4 @@
 >> [畢業專題之旅(week3)](https://github.com/marcoleung052/113.3_holiday/blob/96a02c665ac6ff61b86ea176b1e70811c7d4348f/week3/%E7%95%A2%E6%A5%AD%E5%B0%88%E9%A1%8C%E4%B9%8B%E6%97%85%20(week3).pdf "游標顯示")
 > # week 4 (GPT2 護理記錄補全 test(ENG))
 >> [GPT2 護理記錄補全](https://github.com/marcoleung052/113.3_holiday/blob/072df34c1f1c1ca9a24d9fe86eb98574d334003c/week4/README3.md "游標顯示")  <br>
+>> [GPT2 護理記錄補全報告](https://github.com/marcoleung052/NursingRecordCompletion_train.git "游標顯示")  <br>
