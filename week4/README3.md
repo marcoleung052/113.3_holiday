@@ -16,7 +16,7 @@
 
 ---
 ### code
-[code1](https://github.com/marcoleung052/113.3_holiday/blob/c662c116235453f80ac75c6a0a300d21bcfbdc1a/week4/gpt2_get_notes_final.py "游標顯示") 資料處理+模型訓練+互動式補全(逐詞)
+[code1](https://github.com/marcoleung052/113.3_holiday/blob/c662c116235453f80ac75c6a0a300d21bcfbdc1a/week4/gpt2_get_notes_final.py "游標顯示") 資料處理+模型訓練+互動式補全(逐詞)<br>
 [code2](https://github.com/marcoleung052/113.3_holiday/blob/c662c116235453f80ac75c6a0a300d21bcfbdc1a/week4/gpt2_get_notes_all.py "游標顯示") 互動式補全(續句)
 
 ---
@@ -144,3 +144,13 @@ e. Pt has chronic back pain for which he takes MS contin, has also    had a spin
 | `re` | 重新生成選項 |
 | `stop` | 結束補全 |
 | `a`~`e` | 選擇對應詞彙 |
+
+---
+
+### 輸出結果
+
+#### 1. 逐詞
+只要不是連接詞(and, of, in...)等等能預測幾個字，與樣本一樣，在專有名詞斷句預測更精準
+
+#### 2. 續句
+第一個字跟樣本一樣，其他不同
