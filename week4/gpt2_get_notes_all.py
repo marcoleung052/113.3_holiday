@@ -2,8 +2,8 @@ import torch
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
 # 載入模型與 tokenizer
-model = GPT2LMHeadModel.from_pretrained("./gpt2-nursing-final", local_files_only=True)
-tokenizer = GPT2Tokenizer.from_pretrained("./gpt2-nursing-final", local_files_only=True)
+model = GPT2LMHeadModel.from_pretrained("./gpt2-nursing", local_files_only=True)
+tokenizer = GPT2Tokenizer.from_pretrained("./gpt2-nursing", local_files_only=True)
 model.eval()
 
 while True:
