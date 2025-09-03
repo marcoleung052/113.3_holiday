@@ -16,7 +16,8 @@
 
 ---
 ### code
-[code](https://github.com/marcoleung052/113.3_holiday/blob/12ca47c0a4ffdc3cf420be7f89043b69b804c133/week4/gpt2_get_notes_final.py "游標顯示") 
+[code1](https://github.com/marcoleung052/113.3_holiday/blob/c662c116235453f80ac75c6a0a300d21bcfbdc1a/week4/gpt2_get_notes_final.py "游標顯示") 資料處理+模型訓練+互動式補全(逐詞)
+[code2](https://github.com/marcoleung052/113.3_holiday/blob/c662c116235453f80ac75c6a0a300d21bcfbdc1a/week4/gpt2_get_notes_all.py "游標顯示") 互動式補全(續句)
 
 ---
 ### 步驟一：資料處理
@@ -81,10 +82,13 @@ trainer.train()
 
 ### 步驟三：互動式補全介面
 
+---
+#### 1. 逐詞
+
 使用者可輸入開頭句子，模型提供 5 個可能的下一個詞選項與機率，使用者逐步選擇直到完成句子：
 
 ```bash
-python gpt2_nursing_interactive.py
+python gpt2_get_notes_final.py
 ```
 
 範例互動：
@@ -102,6 +106,32 @@ e. lit (4.1%)
 請輸入選項或指令(re=重新生成, stop=結束)：b
 
 目前句子：Pt required as additional 2 units
+...
+```
+
+---
+
+#### 2. 續句
+
+使用者輸入開頭句子，模型根據輸入生成 5 個可能的續句選項：
+
+```bash
+python gpt2_get_notes_all.py
+```
+
+範例互動：
+
+```text
+請輸入開頭句子：Pt has chronic back pain for which he takes MS
+
+請選擇下一個句子：
+a. Pt has chronic back pain for which he takes MS contin and lidocaine. He has had    progressive fatigue  and weakness for the past
+b. Pt has chronic back pain for which he takes MS contin, due to narcotic    use.  Pt has been experiencing chest pain that is
+c. Pt has chronic back pain for which he takes MS contin. Pt is s/p a    colostomy  that was removed earlier this
+d. Pt has chronic back pain for which he takes MS contin.  She was recently    hospitalized in [**1-29**] for a
+e. Pt has chronic back pain for which he takes MS contin, has also    had a spinal infection from a spinal fusion in [**7-
+
+請輸入選項或指令(re=重新生成, stop=結束)：
 ...
 ```
 
